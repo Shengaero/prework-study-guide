@@ -1,0 +1,46 @@
+* {
+    /* How much space we want around the outside of an element */
+    margin: 0;
+    /* How much space we want around the content inside an element */
+    padding: 0;
+}
+
+header, footer {
+    width: 100%;
+    height:120px;
+    background-color: blue;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*
+The period designates card as a class selector.
+Any HTML element assigned to the class will gain these property assignments from the CSS.
+*/
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
